@@ -4,7 +4,7 @@ import profile from "./profile-1.png";
 import { MdKeyboardArrowRight } from "react-icons/md";
 const Home = () => {
   return (
-    <div className="flex-col flex md:flex-row justify-center items-center w-full p-8 bg-color">
+    <div className="flex-col flex md:flex-row justify-center align-middle w-full p-8 bg-color">
       <div className="p-10">
         <h1 className="py-2 font-bold text-5xl text-white">
           I'm a Full Stack Developer
@@ -20,7 +20,7 @@ const Home = () => {
         </button>
       </div>
       <div className="">
-        <img src={profile} className="rounded-2xl w-1/2" alt="my photo" />
+        <img src={profile} className="mx-8 rounded-2xl w-1/2" alt="my photo" />
       </div>
     </div>
   );
