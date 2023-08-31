@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Contact = () => {
   return (
-    <div className="bg-color">
+    <div className="bg-color" name="Contact">
       <div className="px-16 ">
         <h1 className="text-white text-5xl py-3">Contact</h1>
         <p className="py-3 text-gray-500">

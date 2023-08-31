@@ -6,7 +6,7 @@ import react from "./react.png";
 import tailwand from "./tailwind css.png";
 import node from "./nodeJs.png";
 import mongobd from "./mongodb.png";
-import python from "./python.png";
+import express from "./express.png";
 import github from "./github.png";
 const Skills = () => {
   const skills = [
@@ -17,11 +17,11 @@ const Skills = () => {
     { id: 5, img: tailwand, name: "Tailwind css", style: "shadow-sky-400" },
     { id: 6, img: node, name: "Node JS", style: "shadow-green-500" },
     { id: 7, img: mongobd, name: "mongodb", style: "shadow-green-800" },
-    { id: 8, img: python, name: "python", style: "shadow-yellow-900" },
+    { id: 8, img: express, name: "Express js", style: "shadow-gray-500" },
     { id: 9, img: github, name: "github", style: "shadow-white" },
   ];
   return (
-    <div className="bg-color">
+    <div className="bg-color" name="Skills">
       <div>
         <h1 className="text-white text-5xl px-16 p-3">Skills</h1>
         <p className="text-gray-500 px-16 p-3 text-xl">

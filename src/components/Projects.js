@@ -55,7 +55,7 @@ const Projects = () => {
     },
   ];
   return (
-    <div className=" bg-color">
+    <div className=" bg-color" name="Projects">
       <h1 className="py-5 px-16 text-5xl text-white">Projects</h1>
       <p className="text-gray-500 py-5 px-16">Check out my projects</p>
       <div className="px-3 flex-col flex md:flex-row flex-wrap justify-center align-middle items-center">
