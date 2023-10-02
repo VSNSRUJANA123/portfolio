@@ -18,7 +18,8 @@ const Home = () => {
         </p>
         <a
           target="_blank"
-          href="https://drive.google.com/file/d/1y4S8Un_HYxELAujRKVjNq3pA5IN9VvPC/view?usp=sharing"
+          rel="noreferrer"
+          href="https://drive.google.com/file/d/1eRGWMYmDlm4WMCEKg5BJWjCPPhVfs58X/view?usp=sharing"
         >
           <button className="text-white flex flex-row justify-center items-center bg-gradient-to-r from-blue-600 to-indigo-900 p-4 my-3 rounded">
             Portfolio

@@ -3,14 +3,15 @@ import firstPage from "./songspage.png";
 import post_get from "./post.png";
 import notes from "./notes.png";
 import menu from "./menu.png";
-import para from "./generatepara.png";
-import tour from "./tour.png";
+import portfolio from "./portfolio.png";
+import cartzone from "./cartzone.png";
 const Projects = () => {
   const project = [
     {
       id: 1,
       img: post_get,
-      title: "created by using html,css,js,JSON access the apis",
+      title:
+        "This project created by using html,css,js,JSON access the apis and create,delete notes from local storage ",
       demo: "https://apiputandpost.ccbp.tech",
       code: "https://github.com/VSNSRUJANA123/GoRestConsole",
     },
@@ -34,24 +35,25 @@ const Projects = () => {
       id: 4,
       img: menu,
       title:
-        "Our menu features a variety of breakfast, lunch, snack, and dinner options to satisfy your cravings.",
+        "In This project,Menu features a variety of breakfast, lunch, snack, and dinner options to satisfy your cravings.",
       demo: "https://myreactmenu.netlify.app/",
-      code: "",
+      code: "https://github.com/VSNSRUJANA123/reactMenu.git",
     },
     {
       id: 5,
-      img: para,
+      img: portfolio,
       title:
-        "A React project that generates a paragraph of text based on the number of lines entered by the user.",
-      demo: "https://reactparagenerator.netlify.app/",
-      code: "https://github.com/VSNSRUJANA123/generateparagraph.git",
+        "This created portfolio by using react and tailwind CSS. In this project mention my skills and abilities",
+      demo: "https://srujanaportfolio.netlify.app/",
+      code: "https://github.com/VSNSRUJANA123/protfolio.git",
     },
     {
       id: 6,
-      img: tour,
-      title: "It is simple tour project and read more option ",
-      demo: "https://myreacttour.netlify.app/",
-      code: "https://github.com/VSNSRUJANA123/reacttour.git",
+      img: cartzone,
+      title:
+        "It is look like simple e-commerce project , This created by using react JS , context api and CSS styled components for more Styling .",
+      demo: "https://cartzone.netlify.app/",
+      code: "https://github.com/VSNSRUJANA123/cartzone.git",
     },
   ];
   return (
